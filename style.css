@@ -57,7 +57,7 @@ body {
     text-decoration: underline;
 }
 
-/*home*/
+
 
 .home {
     position: relative;
@@ -183,14 +183,13 @@ body {
     border-bottom-right-radius: 251px;
 }
 
-/*about*/
+
 
 .about {
     background-color: black;
     display: grid;
     grid-template-columns: repeat(2, .5fr);
-    /*align-items: center;*/
-    /*gap: 1.5rem;*/
+
     width: 100%;
     justify-content: space-between;
     min-height: 100vh;
@@ -204,7 +203,7 @@ body {
     background-size: cover;
     padding-right: 10%;
     margin-top: 2.5%;
-    /*margin-top: 7.5%;*/
+
     opacity: 1;
 }
 
@@ -214,7 +213,7 @@ body {
     max-width: 492px;
     max-height: 492px;
     border-radius: 90px;
-    /*box-shadow: 0 0 5pc cyan, 0 0 5px cyan, 0 0 10px cyan;*/
+
     border: #0ef 5px solid;
 }
 
@@ -259,7 +258,7 @@ body {
 }
 
 
-/* Skills */
+
 #Skills {
     background-color: #000;
 }
@@ -284,7 +283,7 @@ body {
 
 .container1 {
     width: 600px;
-    max-height: 500px;
+    max-height: 660px;
     padding: 10px;
     margin-left: 100px;
 }
@@ -358,11 +357,11 @@ body {
 }
 
 .progress-line.css span {
-    width: 80%;
+    width: 90%;
 }
 
 .progress-line.python span {
-    width: 75%;
+    width: 80%;
 }
 
 .progress-line.java span {
@@ -374,7 +373,7 @@ body {
 }
 
 .progress-line.react span {
-    width: 50%;
+    width: 80%;
 }
 
 .progress-line span::after {
@@ -395,11 +394,11 @@ body {
 }
 
 .progress-line.css span::after {
-    content: "80%";
+    content: "90%";
 }
 
 .progress-line.python span::after {
-    content: "75%";
+    content: "80%";
 }
 
 .progress-line.java span::after {
@@ -411,7 +410,7 @@ body {
 }
 
 .progress-line.react span::after {
-    content: "50%";
+    content: "80%";
 }
 
 .progress-line span::before {
@@ -513,7 +512,7 @@ body {
     opacity: 0;
 }
 
-/*projects*/
+
 #Projects {
     background-color: #000;
 }
@@ -651,7 +650,7 @@ body {
     border-right: 10px;
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
-    /*box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;*/
+
     border: #0ef 5px solid;
 }
 
@@ -703,11 +702,11 @@ body {
 }
 
 
-/*contacts*/
+
 
 .contacts {
     display: grid;
-    /*grid-template-columns: repeat (2, 1fr);*/
+
     align-items: center;
     gap: 3rem;
     padding: 40px;
@@ -738,12 +737,7 @@ body {
     font-weight: 600;
 }
 
-/*.contact-text p{
-    color: rgb(177, 177, 177);
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 2rem;
-}*/
+
 .contact-list {
     margin-bottom: 3rem;
 }
@@ -954,7 +948,7 @@ body {
         overflow-y: inherit;
     }
 
-    /*navbar*/
+
     .header {
         display: block;
 
